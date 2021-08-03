@@ -1,7 +1,8 @@
 import telebot
 from django.http import HttpResponse
 from .models import *
-from telebot import types
+# from telebot import types
+import telebot
 
 
 bot = telebot.TeleBot("1687659313:AAER6qBD__aw9LPMQJolvSp_4WNzPZVhzn0")
