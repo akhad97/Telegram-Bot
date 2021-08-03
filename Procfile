@@ -1,1 +1,1 @@
-worker: python bot.py
+web: gunicorn TgBot.wsgi --log-file 
