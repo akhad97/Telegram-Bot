@@ -7,7 +7,7 @@ import telebot
 
 bot = telebot.TeleBot("1687659313:AAER6qBD__aw9LPMQJolvSp_4WNzPZVhzn0")
 HOST = ""
-bot.set_webhook("https://de891e2e092a.ngrok.io/bot/")
+bot.set_webhook(url="https://uzvacancybot.herokuapp.com/")
 
 
 
